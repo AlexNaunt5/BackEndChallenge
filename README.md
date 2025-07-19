@@ -1,6 +1,6 @@
 # Prueba Técnica – Backend Developer
 
-## 🗂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 estructura-categorias-api/
@@ -50,14 +50,14 @@ buscarCategoriaPorId(categorias, 6);
 
 ---
 
-## 🚫 Restricciones cumplidas
+## Restricciones cumplidas
 
-- ✅ Solo se utilizaron estructuras de control tradicionales (`if`, `while`, `for`, etc.).
-- ❌ No se utilizaron métodos funcionales como `map`, `reduce`, `filter`, `flat`, `forEach`, etc.
+- Solo se utilizaron estructuras de control tradicionales (`if`, `while`, `for`, etc.).
+- No se utilizaron métodos funcionales como `map`, `reduce`, `filter`, `flat`, `forEach`, etc.
 
 ---
 
-## ▶️ Cómo ejecutar el código
+## ▶Cómo ejecutar el código
 
 1. Clona el repositorio:
 
