@@ -57,7 +57,7 @@ buscarCategoriaPorId(categorias, 6);
 
 ---
 
-## ▶Cómo ejecutar el código
+## Cómo ejecutar el código
 
 1. Clona el repositorio:
 
