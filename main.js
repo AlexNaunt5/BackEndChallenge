@@ -20,3 +20,24 @@ function obtenerRutasDeCategorias(category, pathAcumulado) {
 
   return rutas;
 }
+
+function buscarCategoriaPorId(categoria, idBuscado) {
+  if (categoria.id === idBuscado) {
+    return categoria;
+  }
+
+  if (!categoria.subcategories || categoria.subcategories.length === 0) {
+    return null;
+  }
+
+  var i = 0;
+  while (i < categoria.subcategories.length) {
+    var resultado = buscarCategoriaPorId(categoria.subcategories[i], idBuscado);
+    if (resultado !== null) {
+      return resultado;
+    }
+    i++;
+  }
+
+  return null;
+}
